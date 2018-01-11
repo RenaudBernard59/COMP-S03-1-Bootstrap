@@ -60,11 +60,23 @@ h2 {
 	font-size: 1em;
 }
 
+
+.image {
+	border: solid white 2px;
+	border-radius: 10px;
+}
+
+
+#chiffres p, #menus p, #menus h1 #menus h2, section h1, .prix{
+	color: white;
+}
+
 /*Unisectiono*/
 
 main section {
 	padding: 5px;
 }
+
 main section .hgroup h1 {
 	color: white;
 	background-color: #3e2c0a; 
@@ -72,30 +84,53 @@ main section .hgroup h1 {
 	font-size: 5em;
 }
 
+
+
 main section .hgroup h2 {
-	color:  #3e2c0a;
+	color: #3e2c0a;
 	background-color: white;
 	margin:10px 30% 10px 30%;
 	font-size: 2em;
 }
 
-#presentation {
-
+#presentation  h1{
+	font-size: 1.5em;
 }
 
-#chiffres {
 
+img + h1 {
+	color: #3e2c0a;
 }
 
-#carte {
 
+.prix {
+	border: solid 4px white;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	font-size: 1.5em
+	
 }
 
-#menus {
-
+.prix p {
+	margin: auto;
 }
 
-#reservations
+.un, .quatre {
+	background-color: #3e2c0a;
+}
+
+.deux {
+	background-color: lightblue;
+}
+
+.trois {
+	background-color: lightgreen;
+}
 
 
 
