@@ -5,12 +5,24 @@
    ========================================================================== */
 * {
 	font-family: 'Kreon', serif;
+	color: #333;
 }
 
+div.main-wrapper {
+	background-image: url(../img/pexels-photo-132694.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
+nav.navbar-fixed-top {
+	background-color: rgba(33,45,57, 0.8);
+	border-bottom: solid 5px #3e2c0a;
+}
 
-
-
+.navbar-inverse .navbar-brand {
+	color: white;
+}
 
 
 
