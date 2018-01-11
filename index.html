@@ -178,7 +178,7 @@
           <div class="prix">6€90</div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam cum, dolores vero ipsum eligendi doloremque ducimus pariatur.</p>
-        <button>Plus d'infos</button>
+        <button class="btn btn-danger">Plus d'infos</button>
       </section>
       <section class="col-lg-6 col-ms-6 col-sm-12 col-xs-12">
         <h1>Menu muffins</h1>
@@ -187,7 +187,7 @@
           <div class="prix">5€90</div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam cum, dolores vero ipsum eligendi doloremque ducimus pariatur.</p>
-        <button>Plus d'infos</button>
+        <button class="btn btn-danger">Plus d'infos</button>
       </section>
       <section class="col-lg-6 col-ms-6 col-sm-12 col-xs-12">
         <h1>Menu cookies</h1>
@@ -196,7 +196,7 @@
           <div class="prix">4€90</div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam cum, dolores vero ipsum eligendi doloremque ducimus pariatur.</p>
-        <button>Plus d'infos</button>
+        <button class="btn btn-danger">Plus d'infos</button>
       </section>
       <section class="col-lg-6 col-ms-6 col-sm-12 col-xs-12">
         <h1>Le big Menu</h1>
@@ -205,7 +205,7 @@
           <div class="prix">9€90</div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed totam cum, dolores vero ipsum eligendi doloremque ducimus pariatur.</p>
-        <button>Plus d'infos</button>
+        <button class="btn btn-danger">Plus d'infos</button>
       </section>
     </article>
     <!-- END section5 Menus -->
@@ -216,18 +216,18 @@
         <h2>Il n'y aura pas de place pour tout le monde alors réservez votre place</h2>
         <hr>
       </div>
-      <form class="col-lg-8 col-ms-8 col-sm-12 col-xs-12">
+      <form class="col-lg-8 col-ms-8 col-sm-12 col-xs-12 ">
         <p>Remplissez le formulaire pour votre réservation (tous les chanps sont obligatoires)</p>
         <div class="form">
-          <input type="text" id="prenom" placeholder="Prénom" autocomplete="given-name" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12" >
-          <input type="text" id="nom" placeholder="Nom" autocomplete="family-name" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12" >
-          <input type="email" id="email" placeholder="Email" autocomplete="email" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12" >
-          <input type="tel" id="tel" placeholder="Téléphone" autocomplete="tel" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12" >
-          <input type="date" id="date" autocomplete="off" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12"><!--Jour de réservation-->
-          <input type="number" id="number" placeholder="Nombre de personnes" autocomplete="off" min="1" step="1" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12" >
+          <input type="text" id="prenom" placeholder="Prénom" autocomplete="given-name" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control" >
+          <input type="text" id="nom" placeholder="Nom" autocomplete="family-name" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control" >
+          <input type="email" id="email" placeholder="Email" autocomplete="email" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control" >
+          <input type="tel" id="tel" placeholder="Téléphone" autocomplete="tel" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control" >
+          <input type="date" id="date" autocomplete="off" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control"><!--Jour de réservation-->
+          <input type="number" id="number" placeholder="Nombre de personnes" autocomplete="off" min="1" step="1" required class="col-lg-6 col-ms-6 col-sm-12 col-xs-12 form-control" >
         </div>
         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit beatae iste cupiditate consequatur, velit odio temporibus inventore nulla, reprehenderit voluptatibus sed nihil, minima fugit laudantium. Laudantium repudiandae doloremque at aperiam.</P>
-        <button type="submit">Je réserve</button>
+        <button type="submit" class="btn btn-danger">Je réserve</button>
       </form>
       <div class="h-card col-lg-4 col-ms-4 col-sm-12 col-xs-12" itemscope itemtype="http://schema.org/Person">
         <section>
@@ -254,7 +254,7 @@
       </article>
       <!-- END section6 Contact -->
     </main>
-    <footer>
+    <footer class="container">
       <small class="col-lg-3 col-ms-3 col-sm-6 col-xs-12">© Copyright M2i Cakes 2017</small>
       <div class="social col-lg-3 col-ms-3 col-sm-6 col-xs-12 col-lg-offset-6 col-md-offset-6">
         <span class="social"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
@@ -268,7 +268,7 @@
       </div>
     </footer>
     <!--MY CODE -------------------------------------------------------------------------->
-</div><<!-->Main Wrapper</!-->
+</div><!--Main Wrapper!-->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <!--<script src="js/vendor/parsley.min.js">$('#form').parsley();</script>-->

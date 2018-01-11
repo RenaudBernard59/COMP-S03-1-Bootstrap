@@ -3,10 +3,20 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*============ALL============*/
 * {
 	font-family: 'Kreon', serif;
 	color: #333;
 }
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+
+
+/*============NAV============*/
 
 div.main-wrapper {
 	background-image: url(../img/pexels-photo-132694.jpeg);
@@ -24,13 +34,12 @@ nav.navbar-fixed-top {
 	color: white;
 }
 
+/*============MAIN============*/
 
 
 
 
 
-
-
-
+/*============FOOTER============*/
 
 
