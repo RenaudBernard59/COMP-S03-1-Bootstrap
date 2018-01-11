@@ -10,10 +10,22 @@
 }
 
 ul {
-list-style:none;
-margin-left:0;
-padding-left:0;
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
 }
+
+hr {
+	width: 10%;
+	border-bottom: solid 3px #3e2c0a;
+}
+
+
+.hgroup>* {
+	text-transform: uppercase;
+}
+
+
 
 
 /*============NAV============*/
@@ -35,11 +47,60 @@ nav.navbar-fixed-top {
 }
 
 /*============MAIN============*/
+/*Multisection*/
+#presentation, #carte, #reservations {
+	background-color: white;
+}
 
+h1 {
+	font-size: 2em;
+}
 
+h2 {
+	font-size: 1em;
+}
+
+/*Unisectiono*/
+
+main section {
+	padding: 5px;
+}
+main section .hgroup h1 {
+	color: white;
+	background-color: #3e2c0a; 
+	margin:10px 30% 10px 30%;
+	font-size: 5em;
+}
+
+main section .hgroup h2 {
+	color:  #3e2c0a;
+	background-color: white;
+	margin:10px 30% 10px 30%;
+	font-size: 2em;
+}
+
+#presentation {
+
+}
+
+#chiffres {
+
+}
+
+#carte {
+
+}
+
+#menus {
+
+}
+
+#reservations
 
 
 
 /*============FOOTER============*/
 
-
+footer {
+	background-color: #333;
+}
