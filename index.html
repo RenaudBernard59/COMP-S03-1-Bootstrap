@@ -67,7 +67,7 @@
       <div class="hgroup">
         <h1>Qui sommes nous ?</h1>
         <h2>Notre mot d'ordre : des produits de qualité pour des gâteaux réussis</h2>
-      </div>
+      </div class="hgroup">
       <div>
         <section>
           <h1>Produits locaux</h1>
@@ -213,31 +213,35 @@
           <input type="text" id="nom" placeholder="Nom" autocomplete="family-name" required >
           <input type="email" id="email" placeholder="Email" autocomplete="email" required >
           <input type="tel" id="tel" placeholder="Téléphone" autocomplete="tel" required >
-          <input type="date" id="date" placeholder="Jour de réservation" autocomplete="off" required >
+          <input type="date" id="date" autocomplete="off" required ><!--Jour de réservation-->
           <input type="number" id="number" placeholder="Nombre de personnes" autocomplete="off" min="1" step="1" required >
         </div>
         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit beatae iste cupiditate consequatur, velit odio temporibus inventore nulla, reprehenderit voluptatibus sed nihil, minima fugit laudantium. Laudantium repudiandae doloremque at aperiam.</P>
         <button type="submit">Je réserve</button>
       </form>
-      <div>
+      <div class="h-card" itemscope itemtype="http://schema.org/Person">
         <section>
           <h1><i class="fa fa-clock-o" aria-hidden="true"></i>
           Horaires</h1>
           <h2>Petit dej'</h2>
-          <p>Lun au Ven: 11h-11h30/p>
-            <h2>Goûter</h2>
-            <p>Lun au Ven: 15h-15h30</p>
+          <p itemprop="openingHours" content="Mo,Tu,We,Th 11:00-11:30">Lun au Ven: 11h-11h30/p>
+          <h2>Goûter</h2>
+          <p itemprop="openingHours" content="Mo,Tu,We,Th 15:00-15:30">Lun au Ven: 15h-15h30</p>
           </section>
-          <section>
-            <h1><i class="fa fa-map-marker" aria-hidden="true"></i>Adresse</h1>
-            <p>31 Rue Denus Papin - 59650 Villeneuve d'ascq</p>
-          </section>
-          <section>
-            <h1><i class="fa fa-mobile" aria-hidden="true"></i>
-            Contact</h1>
-            <p>Email: <a href="mailto:cooking@m2iformation.fr">cooking@m2iformation.fr</a></p>
-            <p>Tél: 0123456789</p>
-          </section>
+        <section>
+          <h1><i class="fa fa-map-marker" aria-hidden="true"></i>Adresse</h1>
+          <p class="p-adr h-adr" itemprop="address">
+            <span class="p-street-address" itemprop="streetAddress">31 Rue Denus Papin</span> - 
+            <span class="p-postal-code" itemprop="postalCode">59650</span> 
+            <span class="p-locality" itemprop="addressLocality">Villeneuve d'ascq</span>
+          </p>
+        </section>
+        <section>
+          <h1><i class="fa fa-mobile" aria-hidden="true"></i>
+          Contact</h1>
+          <p>Email: <a href="mailto:cooking@m2iformation.fr" class="u-email" itemprop="email">cooking@m2iformation.fr</a></p>
+          <p>Tél: <span class="p-tel" itemprop="telephone">0123456789</span></p>
+        </section>
         </div>
       </article>
       <!-- END section6 Contact -->
@@ -261,10 +265,9 @@
     <footer>
       <p>&copy; Renaud BERNARD - 2017</p>
     </footer>
-  </div> <!-- /container -->
   <script src="js/vendor/jquery-1.11.2.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/vendor/parsley.min.js">$('#form').parsley();</script>
+  <!--<script src="js/vendor/parsley.min.js">$('#form').parsley();</script>-->
   <script src="js/vendor/i18n/fr.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
