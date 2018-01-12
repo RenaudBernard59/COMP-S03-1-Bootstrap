@@ -131,12 +131,17 @@ h2 {
 	font-size: 1.5em;
 }
 
+img {
+	padding: 0;
+}
+
 img + h1 {
 	color: #3e2c0a;
 }
 
-.hgmenu  {
+.hgmenu {
 	color: white;
+	margin: 20px;
 }
 
 
@@ -169,10 +174,33 @@ img + h1 {
 	background-color: lightgreen;
 }
 
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.form-control {
+	width: 46%;
+	margin: 20px 2% 20px 2% ;
+	border-radius: 2px;
+}
 
 
 /*============FOOTER============*/
 
 footer {
-	background-color: #333;
+	background-color: #3e2c0a;
+	height: 30vh;
+	padding-top: 80px;
+}
+
+small {
+	color: white;
+	font-size: 1em
+}
+
+footer .fa {
+	padding: 5px;
 }
