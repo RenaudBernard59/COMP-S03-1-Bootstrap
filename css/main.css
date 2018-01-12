@@ -18,6 +18,8 @@ ul {
 hr {
 	width: 10%;
 	border-bottom: solid 3px #3e2c0a;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 
@@ -46,6 +48,10 @@ nav.navbar-fixed-top {
 	color: white;
 }
 
+.navbar-brand h1 {
+	margin: -10px;
+}
+
 /*============MAIN============*/
 /*Multisection*/
 #presentation, #carte, #reservations {
@@ -66,40 +72,71 @@ h2 {
 	border-radius: 10px;
 }
 
+.fa {
+    font-size: 50px !important;
+}
+
+.faw {
+	color: white;
+}
+
+
 
 #chiffres p, #menus p, #menus h1 #menus h2, section h1, .prix{
 	color: white;
 }
 
-/*Unisectiono*/
-
-main section {
-	padding: 5px;
+#presentation, #chiffres, #carte, #menus, #reservations {
+ padding: 10vh;
 }
 
-main section .hgroup h1 {
+/*Unisectiono*/
+
+#accueil {
+	padding: 5px;
+	height: 90vh;
+	padding-top: 30vh;
+}
+
+
+#accueil .hgroup {
+	margin: auto;
+}
+
+
+#accueil .hgroup h1 {
 	color: white;
 	background-color: #3e2c0a; 
 	margin:10px 30% 10px 30%;
 	font-size: 5em;
 }
 
-
-
-main section .hgroup h2 {
+#accueil .hgroup h2 {
 	color: #3e2c0a;
 	background-color: white;
 	margin:10px 30% 10px 30%;
 	font-size: 2em;
 }
 
+#accueil div:nth-child(2) {
+	text-align: center;
+	padding-top: 30vh;
+}
+
+#carte section h1 {
+	color: #3e2c0a;
+}
+
 #presentation  h1{
 	font-size: 1.5em;
 }
 
-
 img + h1 {
 	color: #3e2c0a;
+}
+
+.hgmenu  {
+	color: white;
 }
 
 
