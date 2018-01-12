@@ -131,6 +131,26 @@ h2 {
 	font-size: 1.5em;
 }
 
+#chiffres {
+	background-image: url(../img/kitchen-cake-backe-backing.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+#menus {
+	background-image: url(../img/pexels-photo-24553.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+
+
+
+
 img {
 	padding: 0;
 }
