@@ -67,11 +67,6 @@ h2 {
 }
 
 
-.image {
-	border: solid white 2px;
-	border-radius: 10px;
-}
-
 .fa {
     font-size: 50px !important;
 }
@@ -127,12 +122,50 @@ h2 {
 	color: #3e2c0a;
 }
 
+#carte section {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.image {
+	border: grey white 5px;
+	border-radius: 10px;
+	width: 100%;
+	height: 380px;
+	border: solid white 3px;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+
+#img1 {
+	background-image: url(../img/carte/cakes.png);
+	background-repeat: no-repeat;
+	background-size: contain ;
+}
+
+#img2 {
+	background-image: url(../img/carte/hot-drinks.png);
+	background-repeat: no-repeat;
+	background-size: contain ;
+}
+
+#img3 {
+	background-image: url(../img/carte/ice-drinks.png);
+	background-repeat: no-repeat;
+	background-size: contain ;
+}
+
+
+
+
 #presentation  h1{
 	font-size: 1.5em;
 }
 
 img {
 	padding: 0;
+	
 }
 
 img + h1 {
@@ -185,6 +218,14 @@ img + h1 {
 	width: 46%;
 	margin: 20px 2% 20px 2% ;
 	border-radius: 2px;
+}
+
+.far {
+	font-size: 1.1em !important;
+}
+
+.info {
+	font-size: 1.1em;
 }
 
 
