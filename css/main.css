@@ -140,6 +140,12 @@ nav.navbar-fixed-top {
 	margin: 20px;
 }
 
+/*Vagues*/
+
+
+
+
+/*Etiquettes de prix*/
 .prix {
 	border: solid 4px white;
 	width: 3em;
@@ -170,6 +176,7 @@ nav.navbar-fixed-top {
 }
 
 /*============Section6============*/
+/*Formulaires*/
 .form {
 	display: flex;
 	flex-wrap: wrap;
@@ -182,6 +189,26 @@ nav.navbar-fixed-top {
 	margin: 20px 2% 20px 2% ;
 	border-radius: 2px;
 }
+
+/*Horaires*/
+#horaires section h1, #horaires section h2 {
+	color: #333;
+	font-weight: bold;
+}
+
+#horaires section h1 {
+	font-size: 1.2em;
+}
+
+#horaires section h2 {
+	font-size: 1.1em;
+}
+
+.far {
+	font-size: 1.2em !important;
+}
+
+
 
 /*========================FOOTER========================*/
 footer {
