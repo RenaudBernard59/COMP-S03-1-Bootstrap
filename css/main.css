@@ -1,0 +1,256 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*============ALL============*/
+* {
+	font-family: 'Kreon', serif;
+	color: #333;
+}
+
+ul {
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+}
+
+hr {
+	width: 10%;
+	border-bottom: solid 3px #3e2c0a;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+/*Titres*/
+.hgroup>* {
+	text-transform: uppercase;
+}
+
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+/*Font Awersome*/
+.fa {
+    font-size: 50px !important;
+}
+
+.faw {
+	color: white;
+}
+
+/*========================NAV========================*/
+div.main-wrapper {
+	background-image: url(../img/pexels-photo-132694.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+nav.navbar-fixed-top {
+	background-color: rgba(33,45,57, 0.8);
+	border-bottom: solid 5px #3e2c0a;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-brand h1 {
+	margin: -10px;
+}
+
+/*========================MAIN========================*/
+/*========================Multisection========================*/
+#presentation, #carte, #reservations {
+	background-color: white;
+}
+
+#chiffres p, #menus p, #menus h1 #menus h2, section h1, .prix{
+	color: white;
+}
+
+#presentation, #chiffres, #carte, #menus, #reservations {
+ padding: 10vh;
+}
+
+/*Vagues*/
+.wave{
+  height: 100%;
+  position: relative;
+}
+
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+}
+
+.wave::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, white 12px, transparent 13px);
+}
+/*========================Unisection========================*/
+/*============Section1============*/
+#accueil {
+	padding: 5px;
+	height: 90vh;
+	padding-top: 30vh;
+}
+
+#accueil .hgroup {
+	margin: auto;
+}
+
+
+#accueil .hgroup h1 {
+	color: white;
+	background-color: #3e2c0a; 
+	margin:10px 30% 10px 30%;
+	font-size: 5em;
+}
+
+#accueil .hgroup h2 {
+	color: #3e2c0a;
+	background-color: white;
+	margin:10px 30% 10px 30%;
+	font-size: 2em;
+}
+
+#accueil div:nth-child(2) {
+	text-align: center;
+	padding-top: 30vh;
+}
+
+/*============Section2============*/
+#presentation  h1{
+	font-size: 1.5em;
+}
+
+/*============Section3============*/
+#chiffres {
+	background-image: url(../img/kitchen-cake-backe-backing.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*============Section4============*/
+#carte section h1 {
+	color: #3e2c0a;
+}
+
+/*============Section5============*/
+#menus {
+	background-image: url(../img/pexels-photo-24553.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hgmenu {
+	color: white;
+	margin: 20px;
+}
+
+/*Etiquettes de prix*/
+.prix {
+	border: solid 4px white;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	font-size: 1.5em
+	
+}
+
+.prix p {
+	margin: auto;
+}
+
+.un, .quatre {
+	background-color: #3e2c0a;
+}
+
+.deux {
+	background-color: lightblue;
+}
+
+.trois {
+	background-color: lightgreen;
+}
+
+/*============Section6============*/
+/*Formulaires*/
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.form-control {
+	width: 46%;
+	margin: 20px 2% 20px 2% ;
+	border-radius: 2px;
+}
+
+/*Horaires*/
+#horaires section h1, #horaires section h2 {
+	color: #333;
+	font-weight: bold;
+}
+
+#horaires section h1 {
+	font-size: 1.2em;
+}
+
+#horaires section h2 {
+	font-size: 1.1em;
+}
+
+.far {
+	font-size: 1.2em !important;
+}
+
+
+
+/*========================FOOTER========================*/
+footer {
+	background-color: #3e2c0a;
+	height: 30vh;
+	padding-top: 80px;
+}
+
+small {
+	color: white;
+	font-size: 1em
+}
+
+footer .fa {
+	padding: 5px;
+}
+/*=========================================================================
+====================================END====================================
+=========================================================================*/
